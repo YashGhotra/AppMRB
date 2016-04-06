@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/imgProduct"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:src="@drawable/myreceipe"
+    />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+         android:layout_marginLeft="10dp"
+        android:text="Order"
+        android:layout_below="@id/imgProduct"/>
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:text="One Person Box"
+        android:layout_toRightOf="@id/imgProduct"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+        />
+    <TextView
+        android:id="@+id/txt_detail"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:text="Lorium kjhsadkj saf kjfgkjdgf gfjkgjkdgfgfhj gjgj jhkhjkh khjh Ipsum Lorium Ipsu kjdhsfkjsd hhjg hjghfgsd jhghgm Lorium Ipsum Lorium Ipsum Lorium Ipsum Lorium Ipsum Lorium Ipsum Lorium Ipsum Lorium Ipsum "
+        android:layout_toRightOf="@id/imgProduct"
+          android:layout_below="@id/txt_title"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:ellipsize="end"
+
+        android:layout_height="120dp" />
+
+</RelativeLayout>
